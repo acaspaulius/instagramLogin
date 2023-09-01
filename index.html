@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Instagram</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <div class="main__container">
+          <div class="top__container">
+            <div class="logo">
+              <i class="logo__instagram" role="img"></i>
+            </div>
+            <form>
+              <div class="container">
+                <label for="username"></label>
+                <input
+                  autocapitalize="off"
+                  autocorrect="off"
+                  maxlength="75"
+                  type="text"
+                  id="username"
+                  name="username"
+                  placeholder="Phone number, username, or email"
+                  required
+                />
+              </div>
+              <div class="container">
+                <label for="password"></label>
+                <input autocapitalize="off" autocorrect="off" type="password" id="password" name="password" placeholder="Password" required />
+              </div>
+              <div class="container">
+                <button class="btn-login" type="submit">Log In</button>
+              </div>
+            </form>
+
+            <div class="container container__or">
+              <div class="container__line"></div>
+              <div class="container__text">OR</div>
+              <div class="container__line"></div>
+            </div>
+            <div class="container">
+              <button class="btn-facebook"><i class="fa-brands fa-square-facebook"></i> Log in with Facebook</button>
+            </div>
+            <a class="forgot" href="https://www.instagram.com/accounts/password/reset/" target="_blank">Forgot password?</a>
+            <div class="container">
+              <div>
+                <p>
+                  You can also
+                  <a
+                    class="report"
+                    href="https://help.instagram.com/contact/406206379945942/?locale=en_US&amp;Defamation_CF_redirect=%7B%22URLs1%22%3A%22%22%2C%22gb_country%22%3A%22Lithuania%22%7D&amp;Erasure_Redirect=%7B%22erasure_cf_redirect%22%3A%22%7B%5C%22Jurisdiction%5C%22%3A%5C%22Lithuania%5C%22%2C%5C%22URLs%5C%22%3A%5C%22%5C%22%7D%22%2C%22ipr_cf_redirect%22%3A%22%7B%5C%22content_url%5C%22%3A%5C%22%5C%22%2C%5C%22crtformredirect%5C%22%3A%5C%22%7B%5C%5C%5C%22content_url%5C%5C%5C%22%3A%5C%5C%5C%22%5C%5C%5C%22%2C%5C%5C%5C%22crtformredirect%5C%5C%5C%22%3A%5C%5C%5C%22%7B%5C%5C%5C%5C%5C%5C%5C%22content_url%5C%5C%5C%5C%5C%5C%5C%22%3A%5C%5C%5C%5C%5C%5C%5C%22%5C%5C%5C%5C%5C%5C%5C%22%2C%5C%5C%5C%5C%5C%5C%5C%22whatcountry%5C%5C%5C%5C%5C%5C%5C%22%3A%5C%5C%5C%5C%5C%5C%5C%22Lithuania%5C%5C%5C%5C%5C%5C%5C%22%7D%5C%5C%5C%22%2C%5C%5C%5C%22whatcountry%5C%5C%5C%22%3A%5C%5C%5C%22Lithuania%5C%5C%5C%22%7D%5C%22%7D%22%7D&amp;French_IG_LRRP_redirect=%7B%22URLs1%22%3A%22%22%7D&amp;IP_CF_redirect=%7B%22submit_copyright_report%22%3A%22%7B%5C%22content_urls%5C%22%3A%5C%22%5C%22%7D%22%2C%22submit_tm_report%22%3A%22%7B%5C%22content_urls%5C%22%3A%5C%22%5C%22%2C%5C%22counterfeitredirect%5C%22%3A%5C%22%7B%5C%5C%5C%22content_urls%5C%5C%5C%22%3A%5C%5C%5C%22%5C%5C%5C%22%7D%5C%22%7D%22%7D&amp;LOBComment3=&amp;URLs1=&amp;gb_country=Lithuania"
+                    rel="nofollow noopener noreferrer"
+                    target="_blank"
+                    >report content you believe is unlawful</a
+                  >
+                  in your country without logging in.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="middle__container">
+            <div class="middle__container_signup">
+              Don't have an account? <a class="signup" href="https://www.instagram.com/accounts/emailsignup/">Sign up</a>
+            </div>
+          </div>
+          <div class="bottom__container">
+            <div>Get the app.</div>
+            <div>
+              <a
+                class="appStoreLink"
+                href="https://itunes.apple.com/app/instagram/id389801252?ct=igweb.loginPage.badge&amp;mt=8&amp;pt=428156&amp;vt=lo"
+                rel="nofollow noreferrer"
+                role="link"
+                target="_blank"
+                ><img alt="Download on the App Store" class="appStore-img" src="https://static.cdninstagram.com/rsrc.php/v3/yt/r/Yfc020c87j0.png"
+              /></a>
+              <a
+                class="appStoreLink"
+                href="https://play.google.com/store/apps/details?id=com.instagram.android&hl=en_US&pli=1"
+                rel="nofollow noreferrer"
+                role="link"
+                target="_blank"
+                ><img alt="Get it on Google Play" class="appStore-img" src="https://static.cdninstagram.com/rsrc.php/v3/yz/r/c5Rp7Ym-Klz.png"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>© 2023 Instagram from Meta</p>
+    </footer>
+  </body>
+</html>

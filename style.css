@@ -1,0 +1,159 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main__container {
+  width: 350px;
+  height: 640px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.top__container {
+  border: 1px solid #dbdbdb;
+  padding: 20px;
+  border-radius: 1px;
+}
+
+.logo__instagram {
+  background-image: url('https://static.cdninstagram.com/rsrc.php/v3/yK/r/ATdtiLb2BQ9.png');
+  background-position: 0px 0px;
+  background-size: 176px 181px;
+  width: 175px;
+  height: 50px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin: 20px auto;
+  padding: 5px;
+}
+
+.container {
+  width: 270px;
+  height: 30px;
+  padding: 10px 0px;
+  margin: 0px auto;
+}
+
+.container input[name='username'],
+.container input[name='password'] {
+  width: 100%;
+  padding: 10px;
+  border: 0.5px solid rgba(128, 128, 128, 0.225);
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-color: #fafafa;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+input:focus {
+  outline: 0.5px solid rgba(128, 128, 128, 0.527);
+  box-shadow: 0px 0px 1px rgba(128, 128, 128, 0.527);
+}
+
+.btn-login {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+
+  background-color: #56b6f8;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+
+.container__or {
+  display: flex;
+  align-items: center;
+}
+
+.container__text {
+  padding: 0px 18px;
+  color: #7a7a7a;
+  font-weight: 600;
+}
+
+.container__line {
+  background-color: #dbdbdb;
+  height: 0.5px;
+  outline: 0.5px solid #dbdbdb;
+  display: block;
+  width: 100%;
+  flex-grow: 1;
+}
+
+.btn-facebook {
+  background: none;
+  color: inherit;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  font-weight: 600;
+  color: #385184;
+  text-align: center;
+}
+
+.fa-square-facebook {
+  padding-right: 5px;
+}
+
+.middle__container {
+  border: 1px solid #dbdbdb;
+  margin-top: 10px;
+  padding: 20px;
+  border-radius: 1px;
+}
+
+.signup {
+  color: #0095f6;
+  font-weight: 600;
+}
+
+.bottom__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.forgot {
+  display: block;
+  font-size: 12px;
+}
+
+p {
+  color: grey;
+  font-size: 12px;
+}
+
+a {
+  text-decoration: none;
+  color: #00376b;
+}
+
+.report:hover {
+  text-decoration: underline;
+}
+
+.bottom__container > div:first-child {
+  margin: 16px;
+}
+
+.bottom__container > div:last-child {
+  display: flex;
+  gap: 10px;
+}
+
+.appStore-img {
+  height: 45px;
+  width: 135px;
+}
+
+footer {
+  text-align: center;
+  margin-top: auto;
+}
